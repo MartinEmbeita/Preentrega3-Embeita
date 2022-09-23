@@ -7,6 +7,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" href="../activos/imagenes/logo.jpg" type="image/x-icon">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 		<title>Compañeros Peludos</title>
 		<link rel="stylesheet" href="../activos/css/estilo.css">
 	</head>
@@ -16,21 +17,32 @@
 		<header>
 
 			<div class="header-mensaje">
-				<p><em>~El sitio dedicado a nuestros amigos del alma~</em></p>
+				<p><em>~Para nuestros amigos del alma~</em></p>
 			</div>
 
 			<img src="../activos/imagenes/logo.jpg" alt="logo" id="logo">
 
-			<nav>
-				
-				<ul>
-					<li class="li-header"><a href="../index.html"><strong>Inicio</strong></a></li>
-					<li class="li-header"><a href="productos.html"><strong>Productos</strong></a></li>
-					<li class="li-header"><a href="marcas.html"><strong>Marcas</strong></a></li>
-					<li class="li-header"><a href="nosotros.html"><strong>Nosotros</strong></a></li>
-					<li class="li-header"><a href="contacto.html"><strong>Contacto</strong></a></li>
-				</ul>
+			<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
 
+				<div class="container-fluid">
+	
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+						
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav">
+							<a class="nav-link active" aria-current="page" href="../index.html"><strong>Inicio</strong></a>
+							<a class="nav-link" href="productos.html"><strong>Productos</strong></a>
+							<a class="nav-link" href="marcas.html"><strong>Marcas</strong></a>
+							<a class="nav-link" href="nosotros.html"><strong>Nosotros</strong></a>
+							<a class="nav-link" href="contacto.html"><strong>Contacto</strong></a>
+	
+						</div>
+					</div>
+	
+				</div>
+	
 			</nav>
 
 		</header>
@@ -39,28 +51,22 @@
 
 			<div class="seccion1">
 
-				<center>
 					<div class="contacto">
-						<table border="0" cellpadding="50" cellspacing="50" class="tabla">
-							<tr>
+	
+						<h1>CONTACTO</h2>
 
-								<th>
-									<h2>CONTACTO</h2>
-
-									<form action="#">
+						<form action="#">
 										
-										<input type="text" placeholder="Nombre"><br>
-										<input type="text" placeholder="Apellido"><br>
-										<input type="email" placeholder="Mail"><br>
-										<textarea placeholder="Contanos sobre ti"></textarea><br>
+							<input type="text" placeholder="Nombre"><br>
+							<input type="text" placeholder="Apellido"><br>
+							<input type="email" placeholder="Mail"><br>
+							<textarea placeholder="Contanos sobre ti"></textarea><br>
 
-										<button>Enviar</button>
+							<button>Enviar</button>
 
-									</form>
-							</tr>
-						</table>
+						</form>
+
 					</div>
-				</center>
 			
 			</div>
 
@@ -75,7 +81,7 @@
 				<a href="https://web.whatsapp.com/" target="_blank"><img src="../activos/imagenes/whatsapp.png" alt="whatsapp" class="img-redes"></a>
 			</div>
 
-			<nav>
+			<nav class="nav-footer">
 				<ul>
 						<li class="li-footer"><a href="../index.html">Inicio</a></li>
 						<li class="li-footer"><a href="productos.html">Productos</a></li>

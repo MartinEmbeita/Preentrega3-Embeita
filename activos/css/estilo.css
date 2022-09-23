@@ -23,10 +23,7 @@ header {
 	background-image: linear-gradient(to bottom, green, yellow);
 }
 
-.li-header {
-	display: inline-block;
-	width: 10%;
-	position:relative;
+.container-fluid {
 	font-size: 2.5rem;
 }
 
@@ -35,13 +32,7 @@ header {
 	display: inline-block;
 	position: absolute;
 	top: 10px;
-	left: 400px;
-}
-
-nav {
-	position: relative;
-	bottom: 40px;
-	left: 440px;
+	left: 500px;
 }
 
 #logo {
@@ -87,11 +78,6 @@ ul {
 #img-index {
 border-radius: 40px 40px 40px 40px;
 border: solid 2px;
-}
-
-.tabla {
-	background-color: white;
-	border: solid 1px;
 }
 
 .parrafo-seccion2 {
@@ -155,7 +141,6 @@ footer {
 .li-footer {
 	display: inline-block;
 	width: 10%;
-
 	font-size: 2rem;	
 }
 
@@ -184,6 +169,12 @@ footer {
 	left: 10px;
 }
 
+.nav-footer {
+	position: relative;
+	bottom: 40px;
+	left: 440px;
+}
+
 /*--media queries--*/
 
 /*--mobile--*/
@@ -205,10 +196,10 @@ footer {
 		display: none;
 	}
 	.header-mensaje {
-		display: none;
+		left: 150px;
 	}
 	#img-index {
-		width: 50%;
+		width: 70%;
 	}
 	#logo {
 		width: 10%;
@@ -259,7 +250,7 @@ footer {
 		display: none;
 	}
 	.header-mensaje {
-		display: none;
+		left: 250px;
 	}
 	#img-index {
 		width: 70%;
