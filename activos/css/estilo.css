@@ -317,7 +317,12 @@ footer {
 
 /*--transformaciones--*/
 
-.li-header:hover {
+.nav-link:hover {
+	transform: scale(1.5);
+	transition: all 2s;
+}
+
+.li-footer:hover {
 	transform: scale(1.5);
 	transition: all 2s;
 }
@@ -325,10 +330,10 @@ footer {
 /*--animacion--*/
 
 #img-index:hover {
-	animation: cambio-tamaño 3s;
+	animation: cambio-borde 3s;
 }
 
-@keyframes cambio-tamaño {
+@keyframes cambio-borde {
 	0%{
 		border-radius:60px 60px 60px 60px;
 	}
