@@ -27,14 +27,6 @@ header {
 	font-size: 2.5rem;
 }
 
-.header-mensaje {
-	border-style:double;
-	display: inline-block;
-	position: absolute;
-	top: 10px;
-	left: 500px;
-}
-
 #logo {
 	position: relative;
 	left: 40px;
@@ -196,7 +188,7 @@ footer {
 		display: none;
 	}
 	.header-mensaje {
-		left: 150px;
+		left: 100px;
 	}
 	#img-index {
 		width: 70%;
