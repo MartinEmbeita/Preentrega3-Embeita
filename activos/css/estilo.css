@@ -241,6 +241,11 @@ footer {
 		grid-template-columns: repeat(2, 1fr);
 		line-height: 3;
 	}
+	.tarjeta {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 	.imagen-productos {
 		width: 70%;
 		height: 70%;
