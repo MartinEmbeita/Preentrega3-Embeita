@@ -290,15 +290,11 @@ footer {
 	}
 	.secciones-index {
 		display: grid;
-		grid-template-rows: 400px 200px;
+		grid-template-rows: 500px 250px;
 	}
 	.parrafo-seccion2 {
 		font-size: 200%;
 		top: 50px;
-	}
-	.seccion-footer {
-			display: grid;
-			grid-template-rows: 70px;
 	}
 }
 
