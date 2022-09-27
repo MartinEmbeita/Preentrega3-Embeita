@@ -75,12 +75,10 @@ border: solid 2px;
 .parrafo-seccion2 {
 	color:black;
 	font-weight: normal;
-	font-size: 200%;
 	font-family: 'Courier New', Courier, monospace;
 	text-align: center;
 	line-height: 3;
 	position: relative;
-	top: 70px;
 }
 
 a {
@@ -218,6 +216,13 @@ footer {
 	p{
 		font-size: 1.5rem;
 	}
+	.secciones-index {
+		display: grid;
+		grid-template-rows: 250px 200px;
+	}
+	.parrafo-seccion2 {
+		top: 40px;
+	}
 }
 
 /*--tablet--*/
@@ -269,6 +274,14 @@ footer {
 	p {
 		font-size: 2rem;
 	}
+	.secciones-index {
+		display: grid;
+		grid-template-rows: 400px 200px;
+	}
+	.parrafo-seccion2 {
+		font-size: 200%;
+		top: 50px;
+	}
 }
 
 /*--desktop--*/
@@ -298,6 +311,14 @@ footer {
 	}
 	p{
 		font-size: 2.5rem;
+	}
+	.secciones-index {
+		display: grid;
+		grid-template-rows: 400px 200px;
+	}
+	.parrafo-seccion2 {
+		top: 70px;
+		font-size: 200%;
 	}
 }
 
