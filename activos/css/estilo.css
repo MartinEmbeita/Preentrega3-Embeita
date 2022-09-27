@@ -286,7 +286,7 @@ footer {
 	}
 	.secciones-index {
 		display: grid;
-		grid-template-rows: 400px 200px;
+		grid-template-rows: 500px 200px;
 	}
 	.parrafo-seccion2 {
 		font-size: 200%;
