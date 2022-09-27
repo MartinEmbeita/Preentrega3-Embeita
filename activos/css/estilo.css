@@ -247,7 +247,7 @@ footer {
 
 /*--tablet--*/
 
-@media only screen and (min-width:451px) and (max-width:950px) {
+@media only screen and (min-width:451px) and (max-width:991px) {
 
 	.productos {
 		background-color: rgb(242, 201, 125);
@@ -326,7 +326,7 @@ footer {
 
 /*--desktop--*/
 
-@media only screen and (min-width:951px) {
+@media only screen and (min-width:992px) {
 
 	.productos {
 		background-color: rgb(242, 201, 125);
