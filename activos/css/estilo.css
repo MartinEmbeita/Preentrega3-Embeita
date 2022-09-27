@@ -5,6 +5,7 @@
 
 html{
 	font-size: 62.5%;
+	background-color: rgb(60, 113, 60);
 }
 
 /*--header--*/
@@ -123,7 +124,6 @@ a {
 /*--footer--*/
 
 footer {
-	background-color: rgb(185, 236, 185);
 	border-top: solid 2px black;
 	background-image: linear-gradient(to top, rgb(60, 113, 60), rgb(213, 213, 138));
 }
@@ -223,7 +223,7 @@ footer {
 	}
 	.secciones-index {
 		display: grid;
-		grid-template-rows: 250px 200px;
+		grid-template-rows: 180px 150px;
 	}
 	.parrafo-seccion2 {
 		top: 40px;
@@ -286,7 +286,7 @@ footer {
 	}
 	.secciones-index {
 		display: grid;
-		grid-template-rows: 500px 250px;
+		grid-template-rows: 400px 250px;
 	}
 	.parrafo-seccion2 {
 		font-size: 200%;
