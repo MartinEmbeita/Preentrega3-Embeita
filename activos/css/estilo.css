@@ -228,10 +228,6 @@ footer {
 	.parrafo-seccion2 {
 		top: 40px;
 	}
-	.seccion-footer {
-		display: grid;
-		grid-template-rows: 70px;
-  }
 }
 
 /*--tablet--*/
