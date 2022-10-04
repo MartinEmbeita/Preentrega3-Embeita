@@ -1,0 +1,78 @@
+/*--mobile--*/
+
+@media only screen and (max-width:480px) {
+
+	.productos {
+		background-color: rgb(242, 201, 125);
+		align-items: center;
+		overflow-x: hidden;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		line-height: 3;
+	}
+
+	.tarjeta {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.imagen-productos {
+		width: 50%;
+		height: 50%;
+	}
+
+	.galeria-titulo {
+		font-size: 10px;
+	}
+
+}
+
+/*--tablet--*/
+
+@media only screen and (min-width:481px) and (max-width:960px) {
+
+	.productos {
+		background-color: rgb(242, 201, 125);
+		align-items: center;
+		overflow-x: hidden;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		line-height: 3;
+	}
+
+	.tarjeta {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.imagen-productos {
+		width: 70%;
+		height: 70%;
+	}
+
+	.galeria-titulo {
+		font-size: 20px;
+	}
+
+}
+
+/*--desktop--*/
+
+@media only screen and (min-width:961px) {
+
+	.productos {
+		background-color: rgb(242, 201, 125);
+		align-items: center;
+		overflow-x: hidden;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		line-height: 3;
+	}
+
+	.galeria-titulo {
+		font-size: 30px;
+	}
+
+}

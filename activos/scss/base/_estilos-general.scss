@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	font-size: 62.5%;
+	background-color: rgb(60, 113, 60);
+}
+
+body{
+	overflow-x: hidden;
+}
+
+@media only screen and (max-width:480px) {
+
+	ul {
+		display: none;
+	}
+
+	#logo {
+		width: 40%;
+	}
+
+	p{
+		font-size: 1.5rem;
+	}
+
+}
+
+/*--tablet--*/
+
+@media only screen and (min-width:481px) and (max-width:960px) {
+
+	ul {
+		display: none;
+	}
+
+	#logo {
+		width: 40%;
+	}
+
+	p {
+		font-size: 2rem;
+	}
+
+}
+
+/*--desktop--*/
+
+@media only screen and (min-width:961px) {
+
+	p{
+		font-size: 2.5rem;
+	}
+	
+}
