@@ -1,24 +1,26 @@
-h3{
-	font-size: 3rem;
-	background-position: center;
-}
-@media only screen and (max-width:480px) {
-	.mapa {
-		width: 40%;
-		height: 40%;
-	}
-	.video {
-		width: 40%;
-		height: 40%;
-	}
-}
-@media only screen and (min-width:481px) and (max-width:960px) {
-	.mapa {
-		width: 60%;
-		height: 60%;
-	}
-	.video {
-		width: 60%;
-		height: 60%;
-	}
+.seccion1 {
+		h3{
+			font-size: 3rem;
+			background-position: center;
+		}
+		@media only screen and (max-width:480px) {
+			.mapa {
+				width: 40%;
+				height: 40%;
+			}
+			.video {
+				width: 40%;
+				height: 40%;
+			}
+		}
+		@media only screen and (min-width:481px) and (max-width:960px) {
+			.mapa {
+				width: 60%;
+				height: 60%;
+			}
+			.video {
+				width: 60%;
+				height: 60%;
+			}
+		}
 }
