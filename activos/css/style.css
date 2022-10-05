@@ -154,54 +154,59 @@ main .secciones-index .seccion2 .parrafo-seccion2 {
   }
 }
 
+main .productos {
+  background-color: rgb(242, 201, 125);
+  align-items: center;
+  overflow-x: hidden;
+}
 @media only screen and (max-width: 480px) {
-  .productos {
-    background-color: rgb(242, 201, 125);
-    align-items: center;
-    overflow-x: hidden;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    line-height: 3;
-  }
-  .tarjeta {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .imagen-productos {
+  main .imagen-productos {
     width: 50%;
     height: 50%;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 960px) {
-  .productos {
-    background-color: rgb(242, 201, 125);
-    align-items: center;
-    overflow-x: hidden;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    line-height: 3;
-  }
-  .tarjeta {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .imagen-productos {
+  main .imagen-productos {
     width: 70%;
     height: 70%;
   }
 }
-@media only screen and (min-width: 961px) {
-  .productos {
-    background-color: rgb(242, 201, 125);
+@media only screen and (max-width: 480px) {
+  main .tarjeta {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    overflow-x: hidden;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  main .tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 480px) {
+  main .productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    line-height: 3;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  main .productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    line-height: 3;
+  }
+}
+@media only screen and (min-width: 961px) {
+  main .productos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     line-height: 3;
   }
 }
+
 .seccion1 .contenedor-marcas {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
