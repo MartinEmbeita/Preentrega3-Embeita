@@ -3,27 +3,21 @@ header {
 	top: 0px;
 	border-bottom: solid 2px black;
 	background-image: linear-gradient(to bottom, green, yellow);
-
-  .container-fluid {
-    font-size: 2.5rem;
-
-    #logo {
-      position: relative;
-      left: 10px;
-    }
-
-  }
-
+		.container-fluid {
+			font-size: 2.5rem;
+				a {
+					text-decoration: none;
+					color: black;
+						#logo {
+							position: relative;
+							left: 10px;
+						}
+				}
+		}
 }
-
 .header-marcas {
 	position: relative;
 	top: 0px;
 	border-bottom: solid 2px black;
 	background-image: linear-gradient(to bottom, green, yellow);
-}
-
-a {
-	text-decoration: none;
-	color: black;
 }
