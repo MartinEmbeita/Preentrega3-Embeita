@@ -12,9 +12,15 @@ html body {
 }
 html h2 {
   font-size: 2rem;
+  text-align: center;
 }
 html p {
   text-align: center;
+}
+html .seccion1 {
+  background-color: rgb(242, 201, 125);
+  text-align: center;
+  line-height: 50px;
 }
 @media only screen and (max-width: 480px) {
   html p {
@@ -166,9 +172,6 @@ main .secciones-index .seccion2 .parrafo-seccion2 {
     width: 50%;
     height: 50%;
   }
-  .galeria-titulo {
-    font-size: 10px;
-  }
 }
 @media only screen and (min-width: 481px) and (max-width: 960px) {
   .productos {
@@ -188,9 +191,6 @@ main .secciones-index .seccion2 .parrafo-seccion2 {
     width: 70%;
     height: 70%;
   }
-  .galeria-titulo {
-    font-size: 20px;
-  }
 }
 @media only screen and (min-width: 961px) {
   .productos {
@@ -200,9 +200,6 @@ main .secciones-index .seccion2 .parrafo-seccion2 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     line-height: 3;
-  }
-  .galeria-titulo {
-    font-size: 30px;
   }
 }
 .seccion1 .contenedor-marcas {
@@ -215,6 +212,7 @@ main .secciones-index .seccion2 .parrafo-seccion2 {
 .seccion1 .contenedor-marcas .galeria-item {
   position: relative;
   background-color: white;
+  text-align: center;
 }
 .seccion1 .contenedor-marcas .galeria-item .imagen-marca {
   width: 50%;
@@ -240,17 +238,26 @@ main .secciones-index .seccion2 .parrafo-seccion2 {
     width: 50%;
     height: 50%;
   }
+  .seccion1 .contenedor-marcas .galeria-item .galeria-titulo {
+    font-size: 10px;
+  }
 }
 @media only screen and (min-width: 481px) and (max-width: 960px) {
   .seccion1 .contenedor-marcas .galeria-item .imagen-marca {
     width: 40%;
     height: 40%;
   }
+  .seccion1 .contenedor-marcas .galeria-item .galeria-titulo {
+    font-size: 20px;
+  }
 }
 @media only screen and (min-width: 961px) {
   .seccion1 .contenedor-marcas .galeria-item .imagen-marca {
     width: 50%;
     height: 50%;
+  }
+  .seccion1 .contenedor-marcas .galeria-item .galeria-titulo {
+    font-size: 30px;
   }
 }
 @media only screen and (max-width: 480px) {

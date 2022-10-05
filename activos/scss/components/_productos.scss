@@ -16,9 +16,6 @@
 		width: 50%;
 		height: 50%;
 	}
-	.galeria-titulo {
-		font-size: 10px;
-	}
 }
 @media only screen and (min-width:481px) and (max-width:960px) {
 	.productos {
@@ -38,9 +35,6 @@
 		width: 70%;
 		height: 70%;
 	}
-	.galeria-titulo {
-		font-size: 20px;
-	}
 }
 @media only screen and (min-width:961px) {
 	.productos {
@@ -50,8 +44,5 @@
 		display: grid;
 		grid-template-columns: repeat(4, 1fr);
 		line-height: 3;
-	}
-	.galeria-titulo {
-		font-size: 30px;
 	}
 }

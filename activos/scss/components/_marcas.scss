@@ -8,6 +8,7 @@
 				.galeria-item {
 					position: relative;
 					background-color: white;
+					text-align: center;
 						.imagen-marca {
 							width: 50%;
 							height: 50%;
@@ -32,17 +33,26 @@
 								width: 50%;
 								height: 50%;
 							}
+							.galeria-titulo {
+								font-size: 10px;
+							}
 						}
 						@media only screen and (min-width:481px) and (max-width:960px) {
 							.imagen-marca {
 								width: 40%;
 								height: 40%;
 							}
+							.galeria-titulo {
+								font-size: 20px;
+							}
 						}
 						@media only screen and (min-width:961px) {
 							.imagen-marca {
 								width: 50%;
 								height: 50%;
+							}
+							.galeria-titulo {
+								font-size: 30px;
 							}
 						}
 				}
