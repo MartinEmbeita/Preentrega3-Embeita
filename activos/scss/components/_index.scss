@@ -68,23 +68,23 @@ main {
 								font-size: 200%;
 							}
 						}
-				@media only screen and (max-width:480px) {
-					.secciones-index {
-						display: grid;
-						grid-template-rows: 180px 150px;
-					}
 				}
-				@media only screen and (min-width:481px) and (max-width:960px) {
-					.secciones-index {
-						display: grid;
-						grid-template-rows: 380px 250px;
-					}
-				}
-				@media only screen and (min-width:961px) {
-					.secciones-index {
-						display: grid;
-						grid-template-rows: 400px 200px;
-					}
-				}
+		@media only screen and (max-width:480px) {
+			.secciones-index {
+				display: grid;
+				grid-template-rows: 180px 150px;
+			}
+		}
+		@media only screen and (min-width:481px) and (max-width:960px) {
+			.secciones-index {
+				display: grid;
+				grid-template-rows: 380px 250px;
+			}
+		}
+		@media only screen and (min-width:961px) {
+			.secciones-index {
+				display: grid;
+				grid-template-rows: 400px 200px;
+			}
 		}
 }
