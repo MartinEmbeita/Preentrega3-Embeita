@@ -292,6 +292,10 @@ body .seccion1 .contenedor-marcas .galeria-item .galeria-titulo {
   }
 }
 
+.seccion1 h2 {
+  font-size: 3rem;
+  background-position: center;
+}
 .seccion1 h3 {
   font-size: 3rem;
   background-position: center;
