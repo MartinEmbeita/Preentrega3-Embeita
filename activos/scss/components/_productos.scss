@@ -1,7 +1,6 @@
 main {
 		.productos{
-			background-color: rgb(242, 201, 125);
-			align-items: center;
+			@extend %text-background;
 			overflow-x: hidden;
 		}
 						@media only screen and (max-width:480px) {

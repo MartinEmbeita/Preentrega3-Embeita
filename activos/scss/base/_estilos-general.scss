@@ -16,8 +16,7 @@ html{
 					text-align: center;
 				}
 				.seccion1 {
-					background-color: rgb(242, 201, 125);
-					text-align: center;
+					@extend %text-background;
 					line-height: 50px;
 				}
 				@media only screen and (max-width:480px) {

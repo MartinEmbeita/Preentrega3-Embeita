@@ -18,8 +18,6 @@ html p {
   text-align: center;
 }
 html .seccion1 {
-  background-color: rgb(242, 201, 125);
-  text-align: center;
   line-height: 50px;
 }
 @media only screen and (max-width: 480px) {
@@ -40,6 +38,17 @@ html .seccion1 {
 html a {
   text-decoration: none;
   color: black;
+}
+
+body .seccion1 h3, body .seccion1 h2 {
+  font-size: 3rem;
+  background-position: center;
+}
+
+main .productos, html .seccion1 {
+  background-color: rgb(242, 201, 125);
+  align-items: center;
+  text-align: center;
 }
 
 header {
@@ -148,8 +157,6 @@ main .secciones-index .seccion2 .parrafo-seccion2 {
 }
 
 main .productos {
-  background-color: rgb(242, 201, 125);
-  align-items: center;
   overflow-x: hidden;
 }
 @media only screen and (max-width: 480px) {
@@ -292,30 +299,22 @@ body .seccion1 .contenedor-marcas .galeria-item .galeria-titulo {
   }
 }
 
-.seccion1 h2 {
-  font-size: 3rem;
-  background-position: center;
-}
-.seccion1 h3 {
-  font-size: 3rem;
-  background-position: center;
-}
 @media only screen and (max-width: 480px) {
-  .seccion1 .mapa {
+  body .seccion1 .mapa {
     width: 40%;
     height: 40%;
   }
-  .seccion1 .video {
+  body .seccion1 .video {
     width: 40%;
     height: 40%;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 960px) {
-  .seccion1 .mapa {
+  body .seccion1 .mapa {
     width: 60%;
     height: 60%;
   }
-  .seccion1 .video {
+  body .seccion1 .video {
     width: 60%;
     height: 60%;
   }
