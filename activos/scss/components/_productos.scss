@@ -1,3 +1,5 @@
+@import '../base/listas';
+
 main {
 		.productos{
 			@extend %text-background;
@@ -5,14 +7,14 @@ main {
 		}
 						@media only screen and (max-width:480px) {
 							.imagen-productos {
-								width: 50%;
-								height: 50%;
+								width: nth($widht,2);
+								height: nth($height,2);
 							}
 						}
 						@media only screen and (min-width:481px) and (max-width:960px) {
 							.imagen-productos {
-								width: 70%;
-								height: 70%;
+								width: nth($widht,4);
+								height: nth($height,4);
 							}
 						}
 				@media only screen and (max-width:480px) {

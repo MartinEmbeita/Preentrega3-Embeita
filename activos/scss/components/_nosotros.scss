@@ -1,3 +1,5 @@
+@import '../base/listas';
+
 body {
 		.seccion1 {
 				h2{
@@ -8,22 +10,22 @@ body {
 				}
 				@media only screen and (max-width:480px) {
 					.mapa {
-						width: 40%;
-						height: 40%;
+						width: nth($widht,1);
+						height: nth($height,1);
 					}
 					.video {
-						width: 40%;
-						height: 40%;
+						width: nth($widht,1);
+						height: nth($height,1);
 					}
 				}
 				@media only screen and (min-width:481px) and (max-width:960px) {
 					.mapa {
-						width: 60%;
-						height: 60%;
+						width: nth($widht,3);
+						height: nth($height,3);
 					}
 					.video {
-						width: 60%;
-						height: 60%;
+						width: nth($widht,3);
+						height: nth($height,3);
 					}
 				}
 		}
