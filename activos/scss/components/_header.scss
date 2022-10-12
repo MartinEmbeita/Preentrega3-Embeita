@@ -2,7 +2,7 @@ header {
 	position: sticky;
 	top: 0px;
 	border-bottom: solid 2px black;
-	background-image: linear-gradient(to bottom, green, yellow);
+	background-image: $bg-image-header;
 		.container-fluid {
 			font-size: 2.5rem;
 				a {

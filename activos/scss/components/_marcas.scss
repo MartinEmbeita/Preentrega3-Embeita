@@ -3,7 +3,7 @@ body {
 			position: relative;
 			top: 0px;
 			border-bottom: solid 2px black;
-			background-image: linear-gradient(to bottom, green, yellow);
+			background-image: $bg-image-header;
 		}
 		.seccion1 {
 				.contenedor-marcas {
