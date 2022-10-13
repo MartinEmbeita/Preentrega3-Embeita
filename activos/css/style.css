@@ -45,7 +45,7 @@ body .seccion1 h3, body .seccion1 h2 {
   background-position: center;
 }
 
-main .productos, html .seccion1 {
+body .productos, html .seccion1 {
   background-color: rgb(242, 201, 125);
   align-items: center;
   text-align: center;
@@ -156,51 +156,51 @@ main .secciones-index .seccion2 .parrafo-seccion2 {
   }
 }
 
-main .productos {
+body .productos {
   overflow-x: hidden;
 }
 @media only screen and (max-width: 480px) {
-  main .imagen-productos {
+  body .imagen-productos {
     width: 50%;
     height: 50%;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 960px) {
-  main .imagen-productos {
+  body .imagen-productos {
     width: 70%;
     height: 70%;
   }
 }
 @media only screen and (max-width: 480px) {
-  main .tarjeta {
+  body .tarjeta {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 960px) {
-  main .tarjeta {
+  body .tarjeta {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 }
 @media only screen and (max-width: 480px) {
-  main .productos {
+  body .productos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     line-height: 3;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 960px) {
-  main .productos {
+  body .productos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     line-height: 3;
   }
 }
 @media only screen and (min-width: 961px) {
-  main .productos {
+  body .productos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     line-height: 3;

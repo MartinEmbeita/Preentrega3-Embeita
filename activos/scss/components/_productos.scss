@@ -1,6 +1,6 @@
 @import '../base/listas';
 
-main {
+body {
 		.productos{
 			@extend %text-background;
 			overflow-x: hidden;
