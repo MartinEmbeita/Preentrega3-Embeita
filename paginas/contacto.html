@@ -64,23 +64,38 @@
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 
-		<main>
+		<main class="main-contacto">
 
 			<div class="seccion1">
 
 					<div>
 	
-						<h1>CONTACTO</h2>
+						<h1><strong>CONTACTO</strong></h2>
 
-						<form action="#">
-										
-							<input type="text" placeholder=" Nombre"><br>
-							<input type="text" placeholder=" Apellido"><br>
-							<input type="email" placeholder=" Email address"><br>
-							<textarea cols="40" rows="3" placeholder="Cuentanos sobre ti"></textarea><br>
-
-							<button type="button" class="btn btn-primary btn-lg">Enviar</button>
-
+							<form action="/server/" method="POST" enctype="application/x-www-form-urlencoded" class="form-compra">
+								<div class="form-fila">
+				
+										<label for="nombre" id="nombre" name="nombre-completo">NOMBRE</label>
+										<input type="text" placeholder="Juan Pérez">
+				
+										<label for="provincias">DONDE RESIDES</label>
+										<select name="provincias" id="provincias">
+											<option value="Capital Federal">Capital Federal</option>
+											<option value="Buenos Aires">Buenos Aires</option>
+											<option value="Mendoza">Mendoza</option>
+											<option value="La Rioja">La Rioja</option>
+											<option value="La Pampa">La Pampa</option>
+										</select>
+				
+										<label for="email" id="email" name="email">EMAIL</label>
+										<input type="email" name="email" id="email" placeholder="email@gmail.com" required>
+				
+										<label for="comentarios">CUENTANOS SOBRE TI</label>
+										<textarea name="comentarios" id="comentarios" cols="30" rows="5"></textarea>
+				
+										<button type="submit">Enviar</button>
+				
+								</div>
 						</form>
 
 					</div>
