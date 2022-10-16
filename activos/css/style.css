@@ -146,7 +146,7 @@ main .secciones-index .seccion2 .parrafo-seccion2 {
 @media only screen and (min-width: 481px) and (max-width: 960px) {
   main .secciones-index {
     display: grid;
-    grid-template-rows: 380px 250px;
+    grid-template-rows: 380px 180px;
   }
 }
 @media only screen and (min-width: 961px) {
@@ -330,8 +330,8 @@ body .main-contacto {
 }
 body .main-contacto .form-compra {
   background-color: #e1e4e4;
-  width: 50%;
-  padding: 20px;
+  width: 80%;
+  padding: 10px;
   margin: 2% auto;
 }
 body .main-contacto .form-compra .form-fila input[type=text],
@@ -346,7 +346,7 @@ body .main-contacto .form-compra .form-fila input[type=email] {
 }
 body .main-contacto .form-compra .form-fila select {
   width: 100%;
-  padding: 5px;
+  padding: 10px;
   margin: 5px 0px;
 }
 body .main-contacto .form-compra .form-fila textarea {
