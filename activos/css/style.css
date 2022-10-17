@@ -262,7 +262,7 @@ body .seccion1 .contenedor-marcas .galeria-item .galeria-titulo {
 }
 @media only screen and (min-width: 961px) {
   body .seccion1 .contenedor-marcas .galeria-item .imagen-marca {
-    width: 50%;
+    width: 40%;
     height: 50%;
   }
   body .seccion1 .contenedor-marcas .galeria-item .galeria-titulo {

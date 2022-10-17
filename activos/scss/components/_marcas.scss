@@ -55,7 +55,7 @@ body {
 								}
 								@media only screen and (min-width:961px) {
 									.imagen-marca {
-										width: nth($widht,2);
+										width: nth($widht,1);
 										height: nth($height,2);
 									}
 									.galeria-titulo {
