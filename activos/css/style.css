@@ -313,6 +313,7 @@ body .main-contacto .form-compra {
   width: 80%;
   padding: 10px;
   margin: 2% auto;
+  border: solid black 2px;
 }
 body .main-contacto .form-compra .form-fila input[type=text],
 body .main-contacto .form-compra .form-fila input[type=email] {
